@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/grid_app_btn_width"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/com_btn_bg"
+    android:gravity="center_horizontal" xmlns:app="http://schemas.android.com/apk/res/com.zxly.market">
+    <com.zxly.market.view.RoundedImageView
+        android:id="@+id/iv_app_icon"
+        app:r_corner_radius="@dimen/btn_radius"
+        android:layout_width="@dimen/grid_app_iconzise"
+        android:layout_height="@dimen/grid_app_iconzise"
+        />
+    <TextView 
+        android:id="@+id/tv_app_name"
+        style="@style/Txtstyle_30_666666"
+        android:singleLine="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/grid_app_name_margintop"
+        android:layout_width="@dimen/grid_app_namesise"
+        android:layout_height="wrap_content"/>
+     <TextView 
+        android:id="@+id/tv_app_size"
+        style="@style/Txtstyle_25_999999"
+        android:singleLine="true"
+        android:layout_marginTop="@dimen/grid_app_size_margintop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+     <Button 
+         android:id="@+id/btn_op"
+         style="@style/Button_download_style"
+         android:layout_marginTop="@dimen/grid_app_name_margintop"
+         android:layout_width="@dimen/grid_app_btn_width"
+         android:layout_height="@dimen/btn_submit_height"
+         android:focusable="false"
+         android:clickable="false"/>
+</LinearLayout>

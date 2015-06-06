@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f5f5f5">
+    <include 
+     android:id="@+id/title_bar"
+     android:layout_height="@dimen/title_bar_height"
+     android:layout_width="match_parent"
+     layout="@layout/include_title_bar"/>
+    <ImageButton
+	    android:id="@+id/ibtn_search"
+	    android:layout_width="wrap_content"
+	    android:layout_height="@dimen/title_bar_height"
+	    android:layout_alignParentRight="true"
+	    android:paddingRight="@dimen/title_bar_padding"
+	    android:paddingLeft="@dimen/title_bar_padding"
+	    android:src="@drawable/btn_search" 
+	    android:background="@drawable/bar_btn_bg"
+	    />
+	 <com.zxly.market.view.LoadmoreListView
+	     android:id="@+id/lv_topic"
+	     style="@style/ListView_style"
+	     android:layout_below="@+id/title_bar"
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     />
+	 <include 
+	    android:id="@+id/loading_view"
+	    android:layout_below="@+id/title_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    layout="@layout/commen_lodaing"/>
+</RelativeLayout>
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/layout/activity_topic.xml -->

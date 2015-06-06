@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用详情 -->
+    <string name="comment_name_hint">少侠请输入昵称</string>
+    <string name="comment_content_hint">吐槽、点赞、灌水...</string>
+    <string name="do_submit">正在提交...</string>
+    <string name="comment_count">全部评论( %d )</string>
+    <string name="warm_tip">温馨提示</string>
+    <string name="upgrade_all">您确定全要部更新？</string>
+    <string name="upate_conten">900应用市场更新到了%s咯</string>
+    <string name="no_upate">当前已经是最新版本</string>
+    <string name="ingore">忽略</string>
+    <string name="no_doing_task">还没有下载任务哦~</string>
+    <string name="no_done_task">还没有完成的任务呢O(∩_∩)O~</string>
+    <string name="goto_market">去发现新应用吧!</string>
+    <string name="share_content">我在900应用市场发现了%s实在是太有意思了。你也来900发现一下吧http://ftpagg.18.net/appdownload/900app.apk</string>
+    <string name="default_username">路人甲</string>
+    <string name="input_limit">大侠，您输的也忒少啦！</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/title_bar_padding"
+    android:orientation="vertical">
+
+    <include
+        android:layout_above="@+id/diliver"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/default_listview" />
+
+   <View 
+	     android:id="@+id/diliver"
+	     android:layout_above="@+id/btn_clear"
+	     android:layout_width="match_parent"
+	     android:layout_height="@dimen/diliver_line_height"
+	     android:background="@color/color_dddddd"/>
+   <Button 
+       android:id="@+id/btn_clear"
+       android:textColor="@color/color_white"
+       android:textSize="@dimen/txt_small"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="@dimen/title_bar_padding"
+	   android:layout_marginRight="@dimen/title_bar_padding"
+	   android:layout_marginTop="@dimen/title_bar_padding"
+	   android:layout_alignParentBottom="true"
+       android:minHeight="@dimen/bottom_button_heigt"
+       android:background="@drawable/btn_round_noborder_57be17"
+       android:text="@string/clear_history"/>
+   
+    <include 
+        android:id="@+id/emptyview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        layout="@layout/no_download_task"/>
+</RelativeLayout>    
+
+
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/layout/fragment_downloaded.xml -->

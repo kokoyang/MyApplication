@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="@color/color_white">
+
+    <include
+        android:id="@+id/title_bar"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_width="match_parent"
+        layout="@layout/include_title_bar"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/c_grey_c5c5c5"
+        />
+
+
+    <com.zxly.market.view.TopGallery
+            android:id="@+id/gl_necessary_title" 
+            android:layout_width="fill_parent" 
+            android:layout_height="37dip" 
+            android:fadingEdge="none" 
+            android:layout_gravity="bottom"
+            android:spacing="1dp" /> 
+
+
+    <ImageButton
+        android:layout_width="fill_parent" 
+        android:layout_height="1dip"
+        android:background="@color/c_green_55BF17"/>
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_necessary_sub_vPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="@color/color_white"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/activity_necessary_sub_page.xml -->

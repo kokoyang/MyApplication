@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/head_sculpture_marginbuttom"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+	<com.zxly.market.view.CircleImageView 
+	    android:id="@+id/civ_head"
+	    app:border_width="@dimen/diliver_line_height"
+	    app:border_color="@color/color_white"
+	    android:layout_marginLeft="@dimen/head_sculpture_marginleft"
+	    android:layout_marginTop="@dimen/head_sculpture_margintop"
+	    android:layout_marginRight="@dimen/head_sculpture_marginright"
+	    android:layout_width="@dimen/head_sculpture_size"
+	    android:layout_height="@dimen/head_sculpture_size"/>
+	<TextView 
+	    android:id="@+id/tv_name"
+	    android:textColor="@color/color_666666"
+	    android:textSize="@dimen/txt_smaller"
+	    android:layout_toRightOf="@+id/civ_head"
+	    android:layout_alignTop="@+id/civ_head"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   
+	    />
+	<TextView 
+	    android:id="@+id/tv_comment_content"
+	    android:textColor="@color/color_333333"
+	    android:textSize="@dimen/txt_smaller"
+	    android:layout_marginRight="20dp"
+	    android:maxLines="2"
+	    android:layout_toRightOf="@+id/civ_head"
+	    android:layout_alignBottom="@+id/civ_head"
+	    android:layout_toLeftOf="@+id/rb_rank"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   
+	    />
+	<TextView 
+	    android:id="@+id/tv_date"
+	    android:textColor="@color/color_666666"
+	    android:textSize="@dimen/txt_smaller"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignBaseline="@+id/tv_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   
+	    />
+	<RatingBar 
+	    android:id="@+id/rb_rank"
+        style="@style/MyRatingBar"
+ 		android:layout_alignRight="@+id/tv_date"
+ 		android:layout_alignBottom="@+id/civ_head"
+ 		android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars = "5" 
+        android:stepSize = "1"  
+        android:rating = "2"/>  
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/item_app_comment.xml -->

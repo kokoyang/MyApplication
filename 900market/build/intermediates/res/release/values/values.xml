@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="c_green_55BF17">#55BF17</color>
+    <color name="c_grey_c5c5c5">#c5c5c5</color>
+    <color name="color_235a00">#235a00</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_57be17">#57be17</color>
+    <color name="color_666666">#505050</color>
+    <color name="color_6fc9e9">#6fc9e9</color>
+    <color name="color_86d480">#86d480</color>
+    <color name="color_999999">#707070</color>
+    <color name="color_a0d468">#a0d468</color>
+    <color name="color_b3b3b3">#b3b3b3</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_f3f3f3">#f3f3f3</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_fb7b61">#fb7b61</color>
+    <color name="color_fd8f42">#fd8f42</color>
+    <color name="color_fe9e8a">#fe9e8a</color>
+    <color name="color_fffc00">#fffc00</color>
+    <color name="color_white">#ffffff</color>
+    <color name="dock_selected_color">#ff00ff</color>
+    <color name="dock_unselected_color">#ffffff</color>
+    <color name="pressed_color">#f5f5f5</color>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/umeng_socialize_colors.xml -->
+    <eat-comment/>
+    <color name="umeng_socialize_color_group">#2c3035</color>
+    <color name="umeng_socialize_comments_bg">#F4F4F4</color>
+    <color name="umeng_socialize_divider">#E6E6E6</color>
+    <color name="umeng_socialize_edit_bg">#C4C4C4</color>
+    <color name="umeng_socialize_grid_divider_line">#F8F8F8</color>
+    <color name="umeng_socialize_list_item_bgcolor">#FFFFFF</color>
+    <color name="umeng_socialize_list_item_textcolor">#333333</color>
+    <color name="umeng_socialize_text_friends_list">#959696</color>
+    <color name="umeng_socialize_text_share_content">#666666</color>
+    <color name="umeng_socialize_text_time">#999999</color>
+    <color name="umeng_socialize_text_title">#464f61</color>
+    <color name="umeng_socialize_text_ucenter">#595959</color>
+    <color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="InputCountter"><attr format="integer" name="input_max_count"/><attr format="color" name="input_background_color"/><attr format="reference" name="input_background"/><attr format="dimension" name="input_padding"/><attr format="dimension" name="edit_text_size"/><attr format="color" name="edit_text_color"/><attr format="string" name="edit_hint"/><attr format="dimension" name="lable_text_size"/><attr format="color" name="lable_text_color"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="r_corner_radius"/><attr format="dimension" name="r_border_width"/><attr format="color" name="r_border_color"/><attr format="boolean" name="r_mutate_background"/><attr format="boolean" name="r_oval"/><attr name="android:scaleType"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="ads_marginright">28dp</dimen>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <dimen name="alphabet_size">12dip</dimen>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="app_download_height">28dp</dimen>
+    <dimen name="app_download_width">70dp</dimen>
+    <dimen name="app_icon_margin">17dp</dimen>
+    <dimen name="app_icon_size">80dp</dimen>
+    <dimen name="app_type_lable_height">18dp</dimen>
+    <dimen name="app_type_lable_width">40dp</dimen>
+    <dimen name="bg_radius">8dp</dimen>
+    <dimen name="bottom_button_heigt">36dp</dimen>
+    <dimen name="btn_cancel_margintop">18dp</dimen>
+    <dimen name="btn_cancel_width">127dp</dimen>
+    <dimen name="btn_radius">6dp</dimen>
+    <dimen name="btn_submit_height">34dp</dimen>
+    <dimen name="btn_submit_width">120dp</dimen>
+    <dimen name="catage_bot_icon">22dp</dimen>
+    <dimen name="catage_rs_size">62dp</dimen>
+    <dimen name="catage_tit_icon">20dp</dimen>
+    <dimen name="catage_top_icon">62dp</dimen>
+    <dimen name="comment_content_heiht">120dp</dimen>
+    <dimen name="contact_way_height">25dp</dimen>
+    <dimen name="dialog_aboutus_margin">16dp</dimen>
+    <dimen name="dialog_content_minheight">65dp</dimen>
+    <dimen name="dialog_width">300dp</dimen>
+    <dimen name="diliver_line_height">1px</dimen>
+    <dimen name="dot_size">5dp</dimen>
+    <dimen name="down_size_marage">32dp</dimen>
+    <dimen name="download_btn_height">24dp</dimen>
+    <dimen name="download_btn_width">70dp</dimen>
+    <dimen name="feeback_input_padding">4dp</dimen>
+    <dimen name="feeback_txt_padding">21dp</dimen>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/build/intermediates/exploded-aar/MyApplication/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="frash_hint_text_size">12sp</dimen>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="game_label_margin_left">9dp</dimen>
+    <dimen name="game_label_margin_top">15dp</dimen>
+    <dimen name="grid_app_btn_width">70dp</dimen>
+    <dimen name="grid_app_iconzise">62dp</dimen>
+    <dimen name="grid_app_margin_top">21dp</dimen>
+    <dimen name="grid_app_name_margintop">7dp</dimen>
+    <dimen name="grid_app_size_margintop">-2dp</dimen>
+    <dimen name="grid_vertica_spacing">20dp</dimen>
+    <dimen name="head_sculpture_marginbuttom">18dp</dimen>
+    <dimen name="head_sculpture_marginleft">4dp</dimen>
+    <dimen name="head_sculpture_marginright">12dp</dimen>
+    <dimen name="head_sculpture_margintop">15dp</dimen>
+    <dimen name="head_sculpture_size">50dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="hot_key_height">50dp</dimen>
+    <dimen name="hot_search_margintop">18dp</dimen>
+    <dimen name="icon_artifact_margin_left">14dp</dimen>
+    <dimen name="icon_download_size">25dp</dimen>
+    <dimen name="icon_game_margin_left">8dp</dimen>
+    <dimen name="icon_more_height">17dp</dimen>
+    <dimen name="icon_more_width">22dp</dimen>
+    <dimen name="icon_share_size">48dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="item_label_margintop">14dp</dimen>
+    <dimen name="keys_gridview_margintop">16dp</dimen>
+    <dimen name="layout_paddingtop">26dp</dimen>
+    <dimen name="list_app_icon_margin">18dp</dimen>
+    <dimen name="list_app_iconsize">62dp</dimen>
+    <dimen name="look_more_height">40dp</dimen>
+    <dimen name="process_bar_marginright">15dp</dimen>
+    <dimen name="ratingbar_margintop">9dp</dimen>
+    <dimen name="search_box_height">40dp</dimen>
+    <dimen name="search_box_margintop">7dp</dimen>
+    <dimen name="search_box_paddingleft">12dp</dimen>
+    <dimen name="searchbar_height">35dp</dimen>
+    <dimen name="searchbar_icon_margin">15dp</dimen>
+    <dimen name="searchbar_margin_top">12dp</dimen>
+    <dimen name="searchbar_radius">18dp</dimen>
+    <dimen name="setting_margin">14dp</dimen>
+    <dimen name="shadow_width">15.0dip</dimen>
+    <dimen name="slidingmenu_offset">0dip</dimen>
+    <dimen name="special_description_margin_top">20dp</dimen>
+    <dimen name="special_label_margin_top">15dp</dimen>
+    <dimen name="star_height">10.5dp</dimen>
+    <dimen name="star_height_big">23dp</dimen>
+    <dimen name="star_margintop">20dp</dimen>
+    <dimen name="tab_diliver_height">3dp</dimen>
+    <dimen name="tab_margin_top">14dp</dimen>
+    <dimen name="title_bar_height">48dp</dimen>
+    <dimen name="title_bar_padding">10dp</dimen>
+    <dimen name="tv_grade_margintop">13dp</dimen>
+    <dimen name="txt_big">17sp</dimen>
+    <dimen name="txt_bigger">20sp</dimen>
+    <dimen name="txt_middle">14sp</dimen>
+    <dimen name="txt_nomal">15sp</dimen>
+    <dimen name="txt_small">13sp</dimen>
+    <dimen name="txt_smaller">11sp</dimen>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="yaoyiyao_img_size">100dp</dimen>
+    <dimen name="yaoyiyao_rs_marage">40dp</dimen>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/colors.xml -->
+    <eat-comment/>
+    <drawable name="press_drawble">#f5f5f5</drawable>
+    <drawable name="press_drawble2">#dbdbdb</drawable>
+    <drawable name="transparanet">#00000000</drawable>
+    <drawable name="unpress_drawble">#ffffff</drawable>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/pinner_layout_id.xml -->
+    <eat-comment/>
+    <item name="content__" type="id"/>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/build/intermediates/exploded-aar/MyApplication/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="gridview" type="id"/>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/pinner_layout_id.xml -->
+    <eat-comment/>
+    <item name="head_" type="id"/>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/build/intermediates/exploded-aar/MyApplication/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="linearlayout" type="id"/>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="scrollview" type="id"/>
+    <item name="selected_view" type="id"/>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/pinner_layout_id.xml -->
+    <eat-comment/>
+    <item name="tab_" type="id"/>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/build/intermediates/exploded-aar/MyApplication/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="webview" type="id"/>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="OAUTH_AccessToken_ACCESS">用户授权登录成功</string>
+    <string name="OAUTH_AccessToken_ERROR">用户授权登录失败</string>
+    <string name="OAUTH_AccessToken_SXPIRED">请重新登录</string>
+    <string name="OAUTH_ERROR">服务器验证失败服务器验证失败服务器验证失败服务器验证失败</string>
+    <string name="OAUTH_RequestToken_ACCESS">第三方应用验证成功</string>
+    <string name="OAUTH_RequestToken_ERROR">第三方应用验证失败</string>
+    <string name="Weibo_Message_LONG">已超出140个字</string>
+    <string name="Weibo_Message_NULL">分享数据不能为空</string>
+    <string name="Weibo_Share_Error">微博分享失败</string>
+    <string name="Weibo_Share_Repeat">已经分享过了</string>
+    <string name="Weibo_Share_Success">微博分享成功</string>
+    <string name="about_us">关于我们</string>
+    <string name="app_">应用</string>
+    <string name="app_detail">应用详情</string>
+    <string name="app_introduce">应用描述</string>
+    <string name="app_main_name">应用市场</string>
+    <string name="app_name">900应用市场</string>
+    <string name="app_related">相关推荐</string>
+    <string name="app_uninstall">应用卸载</string>
+    <string name="app_update">应用升级</string>
+    <string name="artifact_description">装神器</string>
+    <string name="artifact_label">神器</string>
+    <string name="ather_setting">其他设置</string>
+    <string name="btn_change_comment">修改评论</string>
+    <string name="btn_comment">我要评论</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_ignore">取消忽略</string>
+    <string name="check_update">升级提示</string>
+    <string name="check_update_lable">检查更新</string>
+    <string name="clear_cache">清空缓存</string>
+    <string name="clear_history">清空历史</string>
+    <string name="coid">0</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <string name="com_facebook_loading">Loading...</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="comment_content_hint">吐槽、点赞、灌水...</string>
+    <string name="comment_count">全部评论( %d )</string>
+    <string name="comment_name_hint">少侠请输入昵称</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="contact_way">联系方式：</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="default_username">路人甲</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="delete_all">是否删除全部完成的任务,同时将会删除已下载的本地文件！</string>
+    <string name="delete_content">是否删除任务:%s,同时将会删除已下载的本地文件！</string>
+    <string name="discovery_all_search_text">大家都在搜</string>
+    <string name="discovery_hot_gameh_text">人气游戏</string>
+    <string name="discovery_list_down_count">次下载</string>
+    <string name="discovery_list_down_wan_count">万次下载</string>
+    <string name="discovery_shake_bottom_nodata_text">哇噻！你摇到了外星人耶...</string>
+    <string name="discovery_shake_bottom_text">惊喜摇一摇</string>
+    <string name="discovery_shake_count">次</string>
+    <string name="discovery_shake_left_text">此处有神器出没</string>
+    <string name="discovery_shake_over">您今天已经摇完咯！</string>
+    <string name="discovery_shake_right_text">今天还能摇</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="do_submit">正在提交...</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="download">下载</string>
+    <string name="download_and_install">下载完成后立即安装</string>
+    <string name="download_setting">下载设置</string>
+    <string name="download_task">下载任务</string>
+    <string name="empty_comment">木有评论啊！大爷快来快来评论吧···</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_unknown">发送返回</string>
+    <string name="exit_soft">再按一次退出程序</string>
+    <string name="feedback_content">反馈详情：</string>
+    <string name="feedback_hint">我们极大的渴望获取您的体验和感受</string>
+    <string name="feedbak_lable">意见反馈</string>
+    <string name="game_description">爆表啦!</string>
+    <string name="game_lable">游戏</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="goto_market">去发现新应用吧!</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="grade_1">垃圾</string>
+    <string name="grade_2">糟糕</string>
+    <string name="grade_3">一般般</string>
+    <string name="grade_4">赞一个</string>
+    <string name="grade_5">猴赛雷啊</string>
+    <string name="hot_app">热门应用</string>
+    <string name="hot_search">大家都在搜:</string>
+    <string name="ignore_app">已忽略</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="ingore">忽略</string>
+    <string name="input_limit">大侠，您输的也忒少啦！</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="install">安装</string>
+    <string name="install_and_delete">安装完成删除安装包</string>
+    <string name="is_last_page">已经是最后一页了</string>
+    <string name="load_full">没有更多数据</string>
+    <string name="load_more">正在加载...</string>
+    <string name="load_retry">点击重新加载</string>
+    <string name="look_more">查看全部></string>
+    <string name="manager">管理</string>
+    <string name="market_name">900应用市场</string>
+    <string name="modify">修改</string>
+    <string name="network_err">网络连接失败！</string>
+    <string name="new_version">新版本更新提示</string>
+    <string name="next_page">换一批</string>
+    <string name="no_ads">无广告</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="no_doing_task">还没有下载任务哦~</string>
+    <string name="no_done_task">还没有完成的任务呢O(∩_∩)O~</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="no_hidien">无暗扣</string>
+    <string name="no_ignore_app">暂无忽略升级应用</string>
+    <string name="no_plug_in">无插件</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="no_upate">当前已经是最新版本</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="no_upgrade_app">暂无可升级应用</string>
+    <string name="no_wifi">非wifi网络下下载提醒</string>
+    <string name="ok">提交</string>
+    <string name="one_key_upgrade">一键升级</string>
+    <string name="open">打开</string>
+    <string name="open_notification">开启通知栏提醒</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/build/intermediates/exploded-aar/MyApplication/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/pull_refresh_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新…</string>
+    <string name="pull_to_refresh_release_label">松开以刷新…</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="qzone">QQ空间</string>
+    <string name="rank_description">不如看看大家都在玩</string>
+    <string name="rank_lable">排行</string>
+    <string name="recomand">达人推荐</string>
+    <string name="resume">继续</string>
+    <string name="retry">重试</string>
+    <string name="search_null">哎~没有搜索到你要找的应用.. </string>
+    <string name="setting">设置</string>
+    <string name="share">分享</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="share_content">我在900应用市场发现了%s实在是太有意思了。你也来900发现一下吧http://ftpagg.18.net/appdownload/900app.apk</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="sina">新浪微博</string>
+    <string name="special_description">每期精彩专题，意犹未尽</string>
+    <string name="special_label">专题</string>
+    <string name="stop">暂停</string>
+    <string name="submit">确定</string>
+    <string name="tab_classic">精选</string>
+    <string name="tab_comment">评论</string>
+    <string name="tab_discovery">发现</string>
+    <string name="tab_download_done">已完成</string>
+    <string name="tab_downloading">正在下载</string>
+    <string name="tab_introduce">介绍</string>
+    <string name="tab_sort">分类</string>
+    <string name="title_delete">删除提示</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_socialize_back" translatable="false">返回</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_comment" translatable="false">评论</string>
+    <string name="umeng_socialize_comment_detail" translatable="false">评论详情</string>
+    <string name="umeng_socialize_content_hint">说点啥…</string>
+    <string name="umeng_socialize_friends" translatable="false">关注的好友</string>
+    <string name="umeng_socialize_img_des"/>
+    <string name="umeng_socialize_login">登录</string>
+    <string name="umeng_socialize_login_qq">QQ空间</string>
+    <string name="umeng_socialize_msg_hor" translatable="false">小时前</string>
+    <string name="umeng_socialize_msg_min" translatable="false">分钟前</string>
+    <string name="umeng_socialize_msg_sec" translatable="false">秒前</string>
+    <string name="umeng_socialize_near_At" translatable="false">最近\@的好友</string>
+    <string name="umeng_socialize_network_break_alert" translatable="false">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_send" translatable="false">发布</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="umeng_socialize_share_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能，我们简化了社交平台的接入，为开发者提供坚实的基础服务。（一）支持各大主流社交平台， 
+												（二）支持图片、文字、gif动图、音频、视频；@好友，关注官方微博等功能。
+												（三）提供详尽的后台用户社交行为分析。www.umeng.com/social</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_socialize_text_authorize">授权</string>
+    <string name="umeng_socialize_text_choose_account">选择已有帐号登录</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧…</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_friend_list">好友列表</string>
+    <string name="umeng_socialize_text_loading_message">载入中,请稍候...</string>
+    <string name="umeng_socialize_text_login_fail">登录失败了，请重试</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_tencent_no_connection">无法连接到腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_no_install">未安装腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">授权登录失败</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">版本不匹配，SSO只对微博客户端V3.8.1及以上的版本提供支持</string>
+    <string name="umeng_socialize_text_ucenter">个人中心</string>
+    <string name="umeng_socialize_text_unauthorize">未授权</string>
+    <string name="umeng_socialize_text_visitor">游客</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_share">分享中…</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_tip_blacklist" translatable="false">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed" translatable="false">登录失败…</string>
+    <string name="umeng_socialize_ucenter_login_title_guide" translatable="false">游客登录</string>
+    <string name="umeng_socialize_ucenter_login_title_platform" translatable="false">登录帐号</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="uninstall">卸载</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="upate_conten">900应用市场更新到了%s咯</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="update">升级</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="upgrade_all">您确定全要部更新？</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="waiting">等待</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings_lable.xml -->
+    <eat-comment/>
+    <string name="warm_tip">温馨提示</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_circle">朋友圈</string>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Button_download_style">
+        <item name="android:textColor">@color/color_57be17</item>
+        <item name="android:textSize">@dimen/txt_small</item>
+        <item name="android:text">@string/download</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_round_border_57be17</item>
+      </style>
+    <style name="Button_install_style" parent="Button_download_style">
+        <item name="android:textColor">@color/color_6fc9e9</item>
+        <item name="android:background">@drawable/btn_round_border_6fc9e9</item>
+      </style>
+    <style name="Button_retry_style" parent="Button_download_style">
+        <item name="android:textColor">@color/color_fe9e8a</item>
+        <item name="android:background">@drawable/btn_round_border_fe9e8a</item>
+        <item name="android:text">@string/retry</item>
+      </style>
+    <style name="Button_update_style" parent="Button_download_style">
+        <item name="android:text">@string/update</item>
+      </style>
+    <style name="Button_wait_style" parent="Button_download_style">
+        <item name="android:textColor">@color/color_999999</item>
+        <item name="android:text">@string/waiting</item>
+        <item name="android:background">@drawable/btn_round_border_999999</item>
+      </style>
+    <style name="ListView_style"><!-- -->
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+    <style name="Main_tab_selected">
+        <item name="android:textColor">@color/color_57be17</item>
+        <item name="android:textSize">@dimen/txt_nomal</item>   
+    </style>
+    <style name="Main_tab_unselected">
+        <item name="android:textColor">@color/color_666666</item>
+        <item name="android:textSize">@dimen/txt_nomal</item>
+    </style>
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">    
+        <item name="android:progressDrawable">@drawable/rating_yellow</item>    
+        <item name="android:minHeight">@dimen/star_height</item>    
+        <item name="android:maxHeight">@dimen/star_height</item>  
+      </style>
+    <style name="MyRatingBar_big" parent="@android:style/Widget.RatingBar">    
+        <item name="android:progressDrawable">@drawable/big_rating_yellow</item>    
+        <item name="android:minHeight">@dimen/star_height_big</item>    
+        <item name="android:maxHeight">@dimen/star_height_big</item>  
+      </style>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/umeng_socialize_style.xml -->
+    <eat-comment/>
+    <style name="Theme.UMDefault" parent="android:style/Theme.NoTitleBar"/>
+    <style name="Theme.UMDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Txtstyle_25_666666">
+        <item name="android:textColor">@color/color_666666</item>
+        <item name="android:textSize">@dimen/txt_small</item>
+      </style>
+    <style name="Txtstyle_25_999999">
+        <item name="android:textColor">@color/color_999999</item>
+        <item name="android:textSize">@dimen/txt_small</item>
+      </style>
+    <style name="Txtstyle_30_333333">
+        <item name="android:textColor">@color/color_333333</item>
+        <item name="android:textSize">@dimen/txt_nomal</item>
+     </style>
+    <style name="Txtstyle_30_666666">
+        <item name="android:textColor">@color/color_666666</item>
+        <item name="android:textSize">@dimen/txt_nomal</item>
+      </style>
+    <style name="customDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <!--无边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--没有标题-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--背景是否半透明-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--对话框是否有遮盖 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--动画样式-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--背景是否模糊-->
+        
+    </style>
+    <!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/values/umeng_socialize_style.xml -->
+    <eat-comment/>
+    <style name="umeng_socialize_action_bar_item_im">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:text">999</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="umeng_socialize_action_bar_itemlayout">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="umeng_socialize_dialog_anim_fade">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_fade_out</item>
+    </style>
+    <style name="umeng_socialize_dialog_animations">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_slide_out_from_bottom</item>
+    </style>
+    <style name="umeng_socialize_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/umeng_socialize_divider</item>
+    </style>
+    <style name="umeng_socialize_edit_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <style name="umeng_socialize_list_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog_anim" parent="@style/umeng_socialize_popup_dialog">
+        <item name="android:windowAnimationStyle">@style/umeng_socialize_dialog_animations</item>
+    </style>
+    <style name="umeng_socialize_shareboard_animation">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_shareboard_animation_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_shareboard_animation_out</item>
+    </style>
+</resources>

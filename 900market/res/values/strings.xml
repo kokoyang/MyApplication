@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">900应用市场</string>
+    <string name="app_main_name">应用市场</string>
+    <!-- 渠道ID -->
+    <string name="coid">0</string>
+    <string name="exit_soft">再按一次退出程序</string>
+
+    <string name="load_more">正在加载...</string>
+    <string name="load_full">没有更多数据</string>
+    <string name="load_retry">点击重新加载</string>
+    <!-- 主页文字 -->
+	<string name="tab_classic">精选</string>
+	<string name="tab_sort">分类</string>
+	<string name="tab_discovery">发现</string>
+	<string name="special_label">专题</string>
+	<string name="special_description">每期精彩专题，意犹未尽</string>
+	<string name="artifact_label">神器</string>
+	<string name="artifact_description">装神器</string>
+	<string name="game_lable">游戏</string>
+	<string name="game_description">爆表啦!</string>
+	<string name="rank_lable">排行</string>
+	<string name="rank_description">不如看看大家都在玩</string>
+	<string name="recomand">达人推荐</string>
+	<string name="look_more">查看全部></string>
+	<string name="hot_app">热门应用</string>
+	<string name="download">下载</string>
+	<string name="update">升级</string>
+	<string name="waiting">等待</string>
+	<string name="retry">重试</string>
+	<string name="install">安装</string>
+	<string name="open">打开</string>
+	<string name="app_">应用</string>
+	
+	<!-- 抽屉页文字 -->
+	<string name="market_name">900应用市场</string>
+	<string name="feedbak_lable">意见反馈</string>
+	<string name="check_update">升级提示</string>
+    <string name="check_update_lable">检查更新</string>
+	<string name="setting">设置</string>
+	<string name="about_us">关于我们</string>
+	<string name="feedback_content">反馈详情：</string>
+	<string name="contact_way">联系方式：</string>
+    <string name="feedback_hint">我们极大的渴望获取您的体验和感受</string>
+    <!-- 设置 -->
+    <string name="download_setting">下载设置</string>
+    <string name="download_and_install">下载完成后立即安装</string>
+    <string name="install_and_delete">安装完成删除安装包</string>
+    <string name="no_wifi">非wifi网络下下载提醒</string>
+    <string name="ather_setting">其他设置</string>
+    <string name="new_version">新版本更新提示</string>
+    <string name="open_notification">开启通知栏提醒</string>
+    <string name="clear_cache">清空缓存</string>
+    <string name="network_err">网络连接失败！</string>
+ 
+    <!-- 应用详情 -->
+    <string name="app_detail">应用详情</string>
+    <string name="no_plug_in">无插件</string>
+    <string name="no_hidien">无暗扣</string>
+    <string name="no_ads">无广告</string>
+    <string name="tab_introduce">介绍</string>
+    <string name="tab_comment">评论</string>
+    <string name="app_introduce">应用描述</string>
+    <string name="app_related">相关推荐</string>
+    <string name="btn_comment">我要评论</string>
+    <string name="btn_change_comment">修改评论</string>
+    <string name="empty_comment">木有评论啊！大爷快来快来评论吧···</string>
+    <string name="cancel">取消</string>
+    <string name="submit">确定</string>
+    <string name="ok">提交</string>
+    <string name="modify">修改</string>
+    <string name="share">分享</string>
+    <string name="sina">新浪微博</string>
+    <string name="qzone">QQ空间</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_circle">朋友圈</string>
+    <string name="grade_1">垃圾</string>
+    <string name="grade_2">糟糕</string>
+    <string name="grade_3">一般般</string>
+    <string name="grade_4">赞一个</string>
+    <string name="grade_5">猴赛雷啊</string>
+      
+    <!-- 管理 -->
+    <string name="manager">管理</string>
+    <string name="download_task">下载任务</string>
+    <string name="app_update">应用升级</string>
+    <string name="app_uninstall">应用卸载</string>
+    <string name="tab_downloading">正在下载</string>
+    <string name="tab_download_done">已完成</string>
+    <string name="uninstall">卸载</string>
+    <string name="one_key_upgrade">一键升级</string>
+    <string name="ignore_app">已忽略</string>
+    <string name="cancel_ignore">取消忽略</string>
+    <string name="no_upgrade_app">暂无可升级应用</string>
+    <string name="no_ignore_app">暂无忽略升级应用</string>
+    <string name="stop">暂停</string>
+    <string name="resume">继续</string>
+    <string name="clear_history">清空历史</string>
+    <string name="title_delete">删除提示</string>
+    <string name="delete_content">是否删除任务:%s,同时将会删除已下载的本地文件！</string>
+    <string name="delete_all">是否删除全部完成的任务,同时将会删除已下载的本地文件！</string>        
+    
+    <!-- 大家都在搜 -->
+    <string name="hot_search">大家都在搜:</string>
+    <string name="next_page">换一批</string>
+    <string name="search_null">哎~没有搜索到你要找的应用.. </string>
+    
+    <!--  share message -->
+    <string name="OAUTH_ERROR">服务器验证失败服务器验证失败服务器验证失败服务器验证失败</string>
+	<string name="OAUTH_RequestToken_ACCESS">第三方应用验证成功</string>
+	<string name="OAUTH_RequestToken_ERROR">第三方应用验证失败</string>
+	<string name="OAUTH_AccessToken_ACCESS">用户授权登录成功</string>
+	<string name="OAUTH_AccessToken_ERROR">用户授权登录失败</string>
+	<string name="OAUTH_AccessToken_SXPIRED">请重新登录</string>
+	<string name="Weibo_Message_NULL">分享数据不能为空</string>
+	<string name="Weibo_Message_LONG">已超出140个字</string>
+	<string name="Weibo_Share_Success">微博分享成功</string>
+	<string name="Weibo_Share_Error">微博分享失败</string>
+	<string name="Weibo_Share_Repeat">已经分享过了</string>
+	<string name="errcode_success">发送成功</string>
+	<string name="errcode_cancel">发送取消</string>
+	<string name="errcode_deny">发送被拒绝</string>
+	<string name="errcode_unknown">发送返回</string>
+	<string name="is_last_page">已经是最后一页了</string>
+
+    <!--发现-->
+    <string name="discovery_shake_left_text">此处有神器出没</string>
+    <string name="discovery_shake_right_text">今天还能摇</string>
+    <string name="discovery_shake_count">次</string>
+    <string name="discovery_shake_over">您今天已经摇完咯！</string>
+    <string name="discovery_shake_bottom_text">惊喜摇一摇</string>
+    <string name="discovery_shake_bottom_nodata_text">哇噻！你摇到了外星人耶...</string>
+    <string name="discovery_all_search_text">大家都在搜</string>
+    <string name="discovery_hot_gameh_text">人气游戏</string>
+    <string name="discovery_list_down_count">次下载</string>
+    <string name="discovery_list_down_wan_count">万次下载</string>
+
+</resources>

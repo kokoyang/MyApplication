@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/com_btn_bg2"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="@dimen/title_bar_padding"
+    android:paddingRight="@dimen/title_bar_padding" >
+
+    <com.zxly.market.view.RoundedImageView
+        android:id="@+id/iv_app_icon"
+        android:layout_width="@dimen/list_app_iconsize"
+        android:layout_height="@dimen/list_app_iconsize"
+        android:layout_marginBottom="@dimen/list_app_icon_margin"
+        android:layout_marginTop="@dimen/list_app_icon_margin"
+        android:scaleType="fitXY"
+        app:r_corner_radius="@dimen/btn_radius" />
+
+    <com.zxly.market.view.LimitLengthTextView 
+        android:id="@+id/tv_app_name"
+        style="@style/Txtstyle_30_666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_app_icon"
+        android:layout_toRightOf="@+id/iv_app_icon"
+        android:layout_marginLeft="12dp"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/tv_game_type"
+        android:textColor="@color/color_fe9e8a"
+        android:background="@drawable/bg_round_border_fe9e8a"
+        android:layout_toRightOf="@+id/tv_app_name"
+        android:layout_alignTop="@+id/tv_app_name"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="网游"
+        android:textSize="@dimen/txt_smaller" />
+
+    <LinearLayout
+        android:id="@+id/rb_rank_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_app_name"
+        android:layout_below="@+id/tv_app_name"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_app_download_count"
+            style="@style/Txtstyle_25_999999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+        <RatingBar
+            android:id="@+id/rb_rank"
+            style="@style/MyRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ratingbar_margintop"
+            android:numStars="5"
+            android:rating="3.5"
+            android:stepSize="0.5" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_app_size"
+        style="@style/Txtstyle_25_999999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_app_name"
+        android:layout_marginLeft="@dimen/down_size_marage"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/rb_rank_layout"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_app_info"
+        style="@style/Txtstyle_25_999999"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rb_rank_layout"
+        android:layout_below="@+id/tv_app_size"
+        android:layout_marginTop="4dp"
+        android:layout_toLeftOf="@+id/btn_down"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btn_down"
+        style="@style/Button_download_style"
+        android:layout_width="@dimen/app_download_width"
+        android:layout_height="@dimen/app_download_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_app_name"
+        android:singleLine="true"
+        android:textSize="@dimen/txt_small" />
+
+    <View
+        android:id="@+id/diliver"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diliver_line_height"
+        android:layout_below="@+id/iv_app_icon"
+        android:background="@color/color_dddddd" />
+
+</RelativeLayout>

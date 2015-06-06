@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rlt_data_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                    <RelativeLayout
+                        android:id="@+id/discovery_shake_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:background="@drawable/discovery_shake_bg"><!-- 摇一摇 -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_white"
+                            android:layout_alignParentLeft="true"
+                            android:textSize="@dimen/txt_big"
+                            android:paddingLeft="4dp"
+                            android:paddingTop="3dp"
+                            android:text="@string/discovery_shake_left_text"/>
+                        <TextView
+                            android:id="@+id/discovery_shake_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@color/color_white"
+                            android:paddingRight="4dp"
+                            android:paddingTop="3dp"
+                            android:textSize="@dimen/txt_big"/>
+
+                            <!--摇一摇图片-->
+                            <ImageView
+                                android:id="@+id/discovery_pb_shake"
+                                android:layout_centerInParent="true"
+                                android:layout_width="@dimen/yaoyiyao_img_size"
+                                android:layout_height="@dimen/yaoyiyao_img_size"
+                                android:background="@drawable/shake_progress_default"
+                                android:indeterminateOnly="true"/>
+
+                            <!--摇一摇结果-->
+                            <RelativeLayout
+                                android:id="@+id/discovery_shake_result"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/yaoyiyao_rs_marage"
+                                android:layout_marginRight="@dimen/yaoyiyao_rs_marage"
+                                android:layout_centerVertical="true">
+                                <ImageView
+                                    android:id="@+id/discovery_shake_result_img"
+                                    android:layout_width="@dimen/catage_rs_size"
+                                    android:layout_height="@dimen/catage_rs_size"
+                                    android:layout_centerVertical="true"
+                                    android:background="@drawable/ic_launcher"
+                                    />
+                                <TextView
+                                    android:id="@+id/discovery_shake_result_name"
+                                    android:layout_alignTop="@+id/discovery_shake_result_img"
+                                    android:layout_toRightOf="@id/discovery_shake_result_img"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/c_green_55BF17"
+                                    android:textSize="16sp"
+                                    android:layout_marginLeft="10dp"
+                                    android:singleLine="true"
+                                    android:ellipsize="end"/>
+                                <TextView
+                                    android:id="@+id/discovery_shake_result_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/discovery_shake_result_img"
+                                    android:layout_below="@id/discovery_shake_result_name"
+                                    android:layout_alignBottom="@+id/discovery_shake_result_img"
+                                    android:textColor="@color/color_666666"
+                                    android:layout_marginLeft="10dp"
+                                    android:textSize="15sp"
+                                    android:maxLines="2"
+                                    android:ellipsize="end"/>
+                            </RelativeLayout>
+
+                        <Button
+                            android:id="@+id/discovery_shake_bottom_text"
+                            android:layout_width="wrap_content"
+	      				    android:layout_height="@dimen/app_download_height"
+                            android:textColor="@color/color_fffc00"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:textSize="@dimen/txt_small"
+                            android:background="@null"
+                            android:text="@string/discovery_shake_bottom_text"/>
+                    </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rlt_recomand"
+                    android:layout_below="@id/discovery_shake_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/searchbar_margin_top"
+                    android:background="@color/color_white"
+                    android:orientation="vertical"><!-- 大家都在搜 -->
+                    <View
+                        android:id="@+id/diliver_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/diliver_line_height"
+                        android:background="@color/color_dddddd"/>
+                    <TextView
+                        android:id="@+id/tv_recomand_lable"
+                        android:layout_below="@+id/diliver_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/title_bar_padding"
+                        android:layout_marginTop="@dimen/searchbar_icon_margin"
+                        android:layout_marginBottom="@dimen/searchbar_icon_margin"
+                        android:drawableLeft="@drawable/discovery_all_search_img"
+                        android:drawablePadding="5dp"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/txt_big"
+                        android:text="@string/discovery_all_search_text"/>
+                    <com.zxly.market.view.SortGridView
+                        android:id="@+id/discovery_all_search_grid"
+                        android:layout_below="@id/tv_recomand_lable"
+                        android:scrollbars="none"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_white"
+                        android:paddingBottom="5dp"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:verticalSpacing="0dp"
+                        android:horizontalSpacing="0dp"
+                        android:cacheColorHint="#00000000"
+                        android:listSelector="@drawable/catogory_item_bg"
+                        android:numColumns="3"/>
+
+                    <View
+                        android:id="@+id/diliver_6"
+                        android:layout_below="@+id/rlt_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/diliver_line_height"
+                        android:background="@color/color_dddddd"/>
+
+                </RelativeLayout><!-- 大家都在搜 end -->
+
+
+
+                <WebView
+                    android:id="@+id/web_ad"
+                    android:layout_below="@+id/rlt_recomand"
+                    android:layout_marginTop="@dimen/searchbar_margin_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    /><!-- Webview end -->
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rlt_hot"
+                    android:layout_below="@id/web_ad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/searchbar_margin_top"
+                    android:background="@color/color_white"
+                    android:orientation="vertical"><!-- 人气游戏  -->
+                    <View
+                        android:id="@+id/diliver_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/diliver_line_height"
+                        android:background="@color/color_dddddd"/>
+                    <TextView
+                        android:id="@+id/tv_hot_lable"
+                        android:layout_below="@+id/diliver_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/title_bar_padding"
+                        android:layout_marginTop="@dimen/searchbar_icon_margin"
+                        android:drawableLeft="@drawable/discovery_hot_game_img"
+                        android:drawablePadding="5dp"
+                        android:textColor="@color/color_333333"
+                        android:textSize="@dimen/txt_big"
+                        android:text="@string/discovery_hot_gameh_text"/>
+                </RelativeLayout><!-- 人气游戏 end -->
+
+
+            </RelativeLayout>
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/layout/discovery_fragment_head.xml -->

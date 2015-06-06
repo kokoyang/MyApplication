@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <corners android:radius="2dp"/>
+   <stroke 
+       android:color="@color/color_fe9e8a"
+       android:width="@dimen/diliver_line_height"/>
+	<solid android:color="@android:color/transparent"/>
+
+</shape>
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/drawable/bg_round_border_fe9e8a.xml -->

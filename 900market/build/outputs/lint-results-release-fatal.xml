@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.1.2">
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    android:background=&quot;@color/color_white&quot; xmlns:app=&quot;http://schemas.android.com/apk/res/com.zxly.market&quot;>"
+        errorLine2="                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\res\layout\activity_app_detail.xml"
+            line="6"
+            column="45"/>
+    </issue>
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    android:background=&quot;@color/color_white&quot; xmlns:app=&quot;http://schemas.android.com/apk/res/com.zxly.market&quot;>"
+        errorLine2="                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\res\layout\activity_feedback.xml"
+            line="6"
+            column="45"/>
+    </issue>
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    android:gravity=&quot;center_horizontal&quot; xmlns:app=&quot;http://schemas.android.com/apk/res/com.zxly.market&quot;>"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\res\layout\item_grid_app.xml"
+            line="7"
+            column="41"/>
+    </issue>
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    xmlns:app=&quot;http://schemas.android.com/apk/res/com.zxly.market&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\res\layout\item_list_downloaded.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    xmlns:app=&quot;http://schemas.android.com/apk/res/com.zxly.market&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\res\layout\item_list_downloading.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    xmlns:app=&quot;http://schemas.android.com/apk/res/com.zxly.market&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\res\layout\item_list_ignore_app.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    xmlns:app=&quot;http://schemas.android.com/apk/res/com.zxly.market&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\res\layout\item_list_uninstall.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should *not* hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    xmlns:app=&quot;http://schemas.android.com/apk/res/com.zxly.market&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\res\layout\item_list_upgrade_app.xml"
+            line="3"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment should provide a default constructor (a public constructor with no arguments) (`com.zxly.market.fragment.RankingFragment`)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:
+*Every* fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="public class RankingFragment extends BaseFragment implements IRankingView,OnClickListener,MarketReceiver.NetChangeObserver{"
+        errorLine2="             ~~~~~~~~~~~~~~~">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\src\com\zxly\market\fragment\RankingFragment.java"
+            line="26"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="Avoid non-default constructors in fragments: use a default constructor plus `Fragment#setArguments(Bundle)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:
+*Every* fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1=" public RankingFragment(String classcode){"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\AndroidStudioProjects\MyApplication\900market\src\com\zxly\market\fragment\RankingFragment.java"
+            line="35"
+            column="9"/>
+    </issue>
+
+</issues>

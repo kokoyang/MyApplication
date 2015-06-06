@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+     <include 
+	     android:id="@+id/title_bar"
+	     android:layout_height="@dimen/title_bar_height"
+	     android:layout_width="match_parent"
+	     layout="@layout/include_title_bar"/>
+	<include 
+	    android:id="@+id/lv_uninstall_apps"
+	    android:layout_below="@+id/title_bar"
+	    style="@style/ListView_style"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/default_listview"/>
+</RelativeLayout>
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/layout/activity_uninstall.xml -->

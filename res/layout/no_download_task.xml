@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+   
+    <TextView 
+        style="@style/Txtstyle_25_666666"
+        android:id="@id/tv_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/logo_no_task"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="@string/no_doing_task"/>
+	<Button
+	    style="@style/Button_download_style" 
+	    android:textSize="@dimen/txt_small"
+	    android:layout_marginTop="15dp"
+	    android:id="@+id/btn_go"
+	    android:layout_width="120dp"
+	    android:layout_height="30dp"
+	    android:text="@string/goto_market"
+	    />
+</LinearLayout>

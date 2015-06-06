@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zxly.market.view.BannerCarouselView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <com.zxly.market.view.ChildViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<!--此LinearLayout用来显示小圆点-->
+    <LinearLayout
+        android:id="@+id/layout_dots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+    </LinearLayout>
+</com.zxly.market.view.BannerCarouselView>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/bannercarousel_layout.xml -->

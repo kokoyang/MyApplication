@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="#ff404040" />
+
+    <corners
+       android:radius="@dimen/btn_radius"/>
+
+</shape><!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/drawable/progress_hud_bg.xml -->

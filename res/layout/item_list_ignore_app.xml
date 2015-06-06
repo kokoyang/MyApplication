@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.zxly.market"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"  
+    android:paddingLeft="@dimen/title_bar_padding"
+    android:paddingRight="@dimen/title_bar_padding"
+    android:background="@drawable/com_btn_bg"
+   >
+    <com.zxly.market.view.RoundedImageView 
+        android:id="@+id/iv_app_icon"
+        app:r_corner_radius="@dimen/btn_radius"
+        android:layout_width="@dimen/list_app_iconsize"
+        android:layout_height="@dimen/list_app_iconsize"
+        android:layout_marginTop="@dimen/list_app_icon_margin"
+        android:layout_marginBottom="@dimen/list_app_icon_margin"
+      />
+    <TextView 
+        android:id="@+id/tv_app_name"
+        style="@style/Txtstyle_30_666666"
+        android:layout_alignTop="@+id/iv_app_icon"
+        android:layout_toRightOf="@+id/iv_app_icon"
+        android:layout_marginLeft="13dp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="微信微信微信微信"/>
+    
+    
+    <RatingBar 
+        style="@style/MyRatingBar"
+        android:id="@+id/rb_rank"
+        android:layout_below="@+id/tv_app_name"
+        android:layout_alignLeft="@+id/tv_app_name"
+        android:layout_marginTop="@dimen/ratingbar_margintop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:rating="4.5"/>
+    
+      <TextView 
+        android:id="@+id/tv_app_size"
+        style="@style/Txtstyle_25_999999"
+        android:layout_below="@+id/tv_app_name"
+        android:layout_toRightOf="@+id/rb_rank"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="13.5M"/>
+      
+       <TextView 
+        android:id="@+id/tv_app_info"
+        style="@style/Txtstyle_25_999999"
+        android:singleLine="true"
+        android:layout_below="@+id/tv_app_size"
+        android:layout_alignLeft="@+id/rb_rank"
+        android:layout_marginTop="4dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="这是一款什么 啪啪游戏这是一款什么 啪啪游戏"/>	    
+	    <Button 
+	        android:id="@+id/btn_cancel_ignore"
+	        style="@style/Button_update_style"
+	        android:layout_width="@dimen/download_btn_width"
+	        android:layout_height="@dimen/download_btn_height"
+	        android:layout_alignTop="@+id/tv_app_name"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerHorizontal="true"
+	        android:singleLine="true"
+	        android:text="@string/cancel_ignore"
+	        />
+      
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/diliver_line_height"
+	    android:layout_below="@+id/iv_app_icon"
+	    android:background="@color/color_dddddd"/>
+</RelativeLayout>

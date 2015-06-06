@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.zxly.market"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants" 
+    android:paddingLeft="@dimen/title_bar_padding"
+    android:paddingRight="@dimen/title_bar_padding" 
+   >
+    <com.zxly.market.view.RoundedImageView 
+        android:id="@+id/iv_app_icon"
+        app:r_corner_radius="@dimen/btn_radius"
+        android:layout_width="@dimen/list_app_iconsize"
+        android:layout_height="@dimen/list_app_iconsize"
+        android:layout_marginTop="@dimen/list_app_icon_margin"
+        android:layout_marginBottom="@dimen/list_app_icon_margin"
+       />
+    <TextView 
+        android:id="@+id/tv_app_name"
+        style="@style/Txtstyle_30_666666"
+        android:layout_alignTop="@+id/iv_app_icon"
+        android:layout_toRightOf="@+id/iv_app_icon"
+        android:layout_toLeftOf="@+id/rlt_op"
+        android:layout_marginRight="@dimen/list_app_iconsize"
+        android:layout_marginLeft="@dimen/tv_grade_margintop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"/>
+    <ProgressBar 
+        android:id="@+id/seebar_prosess"
+        android:layout_alignBottom="@+id/iv_app_icon"
+        android:layout_alignLeft="@+id/tv_app_name"
+        android:layout_toLeftOf="@+id/rlt_op"
+        style="?android:attr/progressBarStyleHorizontal"  
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginRight="@dimen/process_bar_marginright"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:indeterminateOnly="false"  
+        android:progress="50"
+        android:max="100" />
+   
+    
+      <TextView 
+        android:id="@+id/tv_app_size"
+        style="@style/Txtstyle_25_999999"
+        android:layout_above="@+id/seebar_prosess"
+        android:layout_alignRight="@+id/seebar_prosess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"/>
+      
+       <TextView 
+        android:id="@+id/tv_download_rate"
+        style="@style/Txtstyle_25_999999"
+        android:layout_above="@+id/seebar_prosess"
+        android:layout_alignLeft="@+id/seebar_prosess"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0kb/s"/>
+	    <RelativeLayout
+	        android:id="@+id/rlt_op"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/list_app_iconsize"
+	        android:layout_alignTop="@+id/tv_app_name"
+	        android:layout_alignParentRight="true"
+	        >
+	    <Button 
+	        android:id="@+id/btn_down"
+	        style="@style/Button_update_style"
+	        android:layout_width="@dimen/download_btn_width"
+	        android:layout_height="@dimen/download_btn_height"
+	        android:layout_centerHorizontal="true"
+	        android:singleLine="true"
+	        />
+       <TextView
+           android:id="@+id/btn_del"
+           android:layout_width="@dimen/download_btn_width"
+	       android:layout_height="@dimen/download_btn_height"
+	       android:drawableBottom="@drawable/icon_delete"
+           android:layout_centerHorizontal="true"
+           android:layout_alignParentBottom="true"
+           />
+	    </RelativeLayout>
+      
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/diliver_line_height"
+	    android:layout_below="@+id/iv_app_icon"
+	    android:background="@color/color_dddddd"/>
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/item_list_downloading.xml -->

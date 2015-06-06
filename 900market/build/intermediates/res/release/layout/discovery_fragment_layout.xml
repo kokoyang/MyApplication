@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/search_text_layout" />
+
+    <com.handmark.pulltorefreshview.PullToRefreshListView
+        android:id="@+id/lv_hot"
+        android:layout_below="@+id/search_bar"
+        style="@style/ListView_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <include
+        android:id="@+id/loading_view"
+        android:layout_below="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/commen_lodaing"/>
+
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/discovery_fragment_layout.xml -->

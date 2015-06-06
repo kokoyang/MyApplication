@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:background="@color/color_f3f3f3">
+	<com.zxly.market.view.LimitLengthTextView 
+	    android:id="@+id/tv_back"
+	    android:padding="@dimen/title_bar_padding"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical"
+	    android:drawableLeft="@drawable/icon_back"
+	    android:drawablePadding="@dimen/icon_artifact_margin_left"
+	    android:textColor="@color/color_666666"
+	    android:textSize="@dimen/txt_big"
+	    android:text="后退"
+	    android:background="@drawable/bar_btn_bg"
+	    />
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/diliver_line_height"
+	    android:layout_alignParentBottom="true"
+	    android:background="@color/color_dddddd"/>
+</RelativeLayout>

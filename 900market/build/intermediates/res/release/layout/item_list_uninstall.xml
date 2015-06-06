@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.zxly.market"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants" 
+    android:paddingLeft="@dimen/title_bar_padding"
+    android:paddingRight="@dimen/title_bar_padding"
+    android:background="@drawable/com_btn_bg"
+   >
+    <com.zxly.market.view.RoundedImageView 
+        android:id="@+id/iv_app_icon"
+        app:r_corner_radius="@dimen/btn_radius"
+        android:scaleType="fitCenter"
+        android:layout_width="@dimen/list_app_iconsize"
+        android:layout_height="@dimen/list_app_iconsize"
+        android:layout_marginTop="@dimen/list_app_icon_margin"
+        android:layout_marginBottom="@dimen/list_app_icon_margin"
+        android:src="@drawable/icon_app_defaul"/>
+    <TextView 
+        android:id="@+id/tv_app_name"
+        style="@style/Txtstyle_30_666666"
+        android:layout_alignTop="@+id/iv_app_icon"
+        android:layout_toRightOf="@+id/iv_app_icon"
+        android:layout_toLeftOf="@+id/btn_del"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="微信"/>
+  
+      <TextView 
+        android:id="@+id/tv_app_size"
+        style="@style/Txtstyle_25_999999"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/tv_version"
+        android:layout_below="@+id/tv_version"
+        android:layout_alignLeft="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="大小：13.5M"/>
+      
+       <TextView 
+        android:id="@+id/tv_version"
+        style="@style/Txtstyle_25_999999"
+        android:layout_below="@+id/tv_app_name"
+        android:layout_alignLeft="@+id/tv_app_name"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="版本：2.0"/>
+	    
+       <Button 
+	        android:id="@+id/btn_del"
+	        style="@style/Button_update_style"
+	        android:textSize="@dimen/txt_small"
+	        android:layout_alignTop="@+id/tv_app_name"
+	        android:layout_alignParentRight="true"
+	        android:layout_width="@dimen/download_btn_width"
+	        android:layout_height="@dimen/download_btn_height"
+	        android:singleLine="true"
+	        android:text="@string/uninstall"
+	        />
+	<View 
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/diliver_line_height"
+	    android:layout_below="@+id/iv_app_icon"
+	    android:background="@color/color_dddddd"/>
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/item_list_uninstall.xml -->

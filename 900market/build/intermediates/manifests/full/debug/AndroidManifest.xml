@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zxly.market"
+    android:versionCode="12000"
+    android:versionName="2.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+ <!-- 上网 权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ <!-- 读写sd卡权限 -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+ <!-- 读取手机信息权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.hardware.sensor.accelerometer" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+
+    <!-- 友盟分享需要的权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="com.zxly.market.activity.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_main_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="@string/coid" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="551c9d3afd98c5e6d800062f" />
+
+        <activity
+            android:name="com.zxly.market.activity.SplashActivity"
+            android:label="@string/app_main_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="900market" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zxly.market.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.CategorySubActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.FeedBackActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.SettingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.AppDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.ShowPicsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.ManagerActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.DownLoadTaskActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.UninstallAPPActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.IgnoredAppActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.UpgradeAppActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.AppListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.TopicAppActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.HotSearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.RakingListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.zxly.market.activity.TopicDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!-- 分享内容编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+        </activity>
+
+        <!-- 微信分享需要的回调activity -->
+        <activity
+            android:name="com.zxly.market.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 腾讯SSO授权的Activity注册 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1103384553" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 统一广播注册 -->
+        <receiver
+            android:name="com.zxly.market.utils.MarketReceiver"
+            android:enabled="true"
+            android:label="com.zxly.market" >
+
+            <!-- 网络改变 -->
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- 卸载、安装 -->
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+
+                <data android:scheme="package" >
+                </data>
+            </intent-filter>
+            <!-- 开机 -->
+            <intent-filter android:priority="2147483648" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" >
+                </action>
+            </intent-filter>
+            <!-- 语言改变 -->
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.zxly.market.service.PackageChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.zxly.market.service.DownloadService" >
+            <intent-filter>
+                <action android:name="download.service.action" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

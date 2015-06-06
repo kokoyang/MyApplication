@@ -1,0 +1,18 @@
+<TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/search_bar"
+        android:layout_marginTop="@dimen/searchbar_margin_top"
+        android:layout_marginLeft="@dimen/title_bar_padding"
+        android:layout_marginRight="@dimen/title_bar_padding"
+        android:layout_marginBottom="@dimen/searchbar_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/searchbar_height"
+        android:paddingLeft="@dimen/searchbar_icon_margin"
+        android:drawablePadding="@dimen/searchbar_icon_margin"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/icon_search"
+        android:textSize="@dimen/txt_middle"
+        android:textColor="@color/color_999999"
+        android:text="大家都在搜:900市场"
+        android:background="@drawable/searchbar_bg_border"/>
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/layout/search_text_layout.xml -->

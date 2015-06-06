@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/dialog_aboutus_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_round_white">
+  
+    <RatingBar 
+        android:id="@+id/rb_grade"
+        style="@style/MyRatingBar_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/star_margintop"
+        android:layout_centerHorizontal="true"
+        android:numStars = "5"
+        android:stepSize = "1"  
+        android:rating = "4"/> 
+        />
+    <TextView 
+        android:id="@+id/tv_grade"
+        style="@style/Txtstyle_30_333333"
+        android:layout_below="@+id/rb_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/tv_grade_margintop"/>
+    <View 
+        android:id="@+id/diliver"
+        android:layout_below="@+id/tv_grade"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diliver_line_height"
+        android:layout_marginTop="@dimen/tv_grade_margintop"
+        android:background="@color/color_dddddd"/>
+    <EditText
+        android:id="@+id/et_name"
+        style="@style/Txtstyle_25_999999"
+        android:layout_below="@+id/diliver"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="@dimen/tv_grade_margintop"
+        android:layout_marginRight="@dimen/tv_grade_margintop"
+        android:padding="2dp"
+        android:layout_marginTop="@dimen/title_bar_padding"
+        android:background="@drawable/com_square_border"/>
+    <EditText
+        android:id="@+id/et_cotent"
+        style="@style/Txtstyle_25_999999"
+        android:layout_below="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="@dimen/tv_grade_margintop"
+        android:layout_marginRight="@dimen/tv_grade_margintop"
+        android:maxLength="50"
+        android:padding="2dp"
+        android:gravity="top"
+        android:layout_marginTop="@dimen/title_bar_padding"
+        android:background="@drawable/com_square_border"/>
+    <LinearLayout 
+        android:layout_below="@+id/et_cotent"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/tv_grade_margintop"
+        android:layout_marginRight="@dimen/tv_grade_margintop"
+        android:layout_height="@dimen/btn_submit_height"
+        android:layout_marginTop="@dimen/btn_cancel_margintop"
+        android:orientation="horizontal">
+        <Button 
+	        android:id="@+id/btn_cancel"
+	        style="@style/Button_wait_style"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_marginRight="20dp"
+	        android:layout_weight="1"
+	        android:text="@string/cancel"/>
+	    <Button 
+	        android:id="@+id/btn_submit"
+	        style="@style/Button_update_style"
+	        android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+	        android:text="@string/submit"
+	        />
+    </LinearLayout>
+   
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/dialog_publish_comment.xml -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/color_white">
+    <include 
+     android:id="@+id/title_bar"
+     android:layout_height="@dimen/title_bar_height"
+     android:layout_width="match_parent"
+     layout="@layout/include_title_bar"/>
+
+     <include
+         android:id="@+id/tab_pager"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/title_bar"
+         layout="@layout/tab_switch_pagerview" />
+
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/activity_download_task.xml -->

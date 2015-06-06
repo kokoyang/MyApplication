@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f5f5f5">
+    <com.zxly.market.view.LoadmoreListView
+         android:id="@+id/lv_comments"
+         android:listSelector="#00000000"
+         android:cacheColorHint="#00000000"
+         android:divider="@color/color_dddddd"
+         android:dividerHeight="@dimen/diliver_line_height"
+         android:paddingLeft="@dimen/title_bar_padding"
+         android:paddingRight="@dimen/title_bar_padding"
+         android:scrollbars="none"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         />
+    <TextView 
+        android:id="@+id/emptyview"
+        style="@style/Txtstyle_30_666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/empty_comment"
+        android:visibility="gone"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+/>
+</RelativeLayout>
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/layout/fragment_app_comment.xml -->

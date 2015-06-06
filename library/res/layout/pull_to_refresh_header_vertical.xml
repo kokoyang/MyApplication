@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/fl_inner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="4dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loading_splash" />
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" >
+
+                <ImageView
+                    android:id="@+id/pull_to_refresh_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <ProgressBar
+                    android:id="@+id/pull_to_refresh_progress"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:indeterminate="true"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/pull_to_refresh_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearance"
+                    android:textColor="#6d7071"
+                    android:textSize="@dimen/frash_hint_text_size" />
+
+                <TextView
+                    android:id="@+id/pull_to_refresh_sub_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#6d7071"
+                    android:textSize="@dimen/frash_hint_text_size"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</merge>

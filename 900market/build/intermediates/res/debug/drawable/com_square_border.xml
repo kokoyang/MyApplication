@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+   <stroke 
+       android:color="@color/color_dddddd"
+       android:width="@dimen/diliver_line_height"/>
+	<solid android:color="@color/color_white"/>
+</shape>
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/drawable/com_square_border.xml -->

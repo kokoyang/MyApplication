@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zxly.market.view.TabSwitchPagerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     <LinearLayout 
+	    android:id="@+id/llt_tab"
+	    android:layout_below="@+id/title_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView 
+	        android:id="@+id/tv_taba"
+	        style="@style/Main_tab_selected"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:padding="10dp"
+	        android:background="@drawable/com_btn_bg"
+	        android:text="@string/tab_downloading"/>
+	    <View 
+	        android:layout_width="@dimen/diliver_line_height"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:background="@color/color_dddddd"/>
+       <TextView 
+	        android:id="@+id/tv_tabb"
+	        style="@style/Main_tab_unselected"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:padding="10dp"
+	        android:background="@drawable/com_btn_bg"
+	        android:text="@string/tab_download_done"/>
+	</LinearLayout>
+	<View 
+	    android:id="@+id/v_diliver2"
+	    android:layout_below="@+id/llt_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/diliver_line_height"
+        android:background="@color/color_dddddd"/>
+	<View 
+	    android:id="@+id/tab_diliver"
+	    android:layout_alignBottom="@+id/llt_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/tab_diliver_height"
+        android:background="@color/color_57be17"/>
+
+	<android.support.v4.view.ViewPager
+	    android:layout_below="@+id/v_diliver2"
+	    android:id="@+id/vp_pager"
+	    android:layout_above="@+id/diliver_3"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"/>
+
+</com.zxly.market.view.TabSwitchPagerView>
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/layout/tab_switch_pagerview.xml -->

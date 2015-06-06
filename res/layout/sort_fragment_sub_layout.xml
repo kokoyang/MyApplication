@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListView
+                android:id="@+id/listview_demo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:footerDividersEnabled="false"
+                style="@style/ListView_style"/>
+        <include
+            android:id="@+id/loading_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/commen_lodaing"/>
+</RelativeLayout>
+

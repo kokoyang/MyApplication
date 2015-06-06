@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+     <include 
+	     android:id="@+id/title_bar"
+	     android:layout_height="@dimen/title_bar_height"
+	     android:layout_width="match_parent"
+	     layout="@layout/include_title_bar"/>
+	<include 
+	    android:id="@+id/lv_ignore_app"
+	    android:layout_below="@+id/title_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    layout="@layout/default_listview"/>
+
+	<TextView 
+	    android:id="@+id/tv_empty"
+	    style="@style/Txtstyle_30_666666"
+	    android:layout_below="@+id/title_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:visibility="gone"
+	    android:text="@string/no_ignore_app"/>
+
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/activity_ignore.xml -->

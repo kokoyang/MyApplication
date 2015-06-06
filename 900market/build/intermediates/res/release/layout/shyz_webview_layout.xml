@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zxly.market.view.ShyzWebView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed">
+      <include 
+	     android:id="@+id/title_bar"
+	     android:layout_height="@dimen/title_bar_height"
+	     android:layout_width="match_parent"
+	     layout="@layout/include_title_bar"/>
+    <ImageButton
+	    android:id="@+id/ibtn_search"
+	    android:layout_width="wrap_content"
+	    android:layout_height="@dimen/title_bar_height"
+	    android:layout_alignParentRight="true"
+	    android:paddingRight="@dimen/title_bar_padding"
+	    android:paddingLeft="@dimen/title_bar_padding"
+	    android:src="@drawable/btn_search" 
+	    android:background="@drawable/bar_btn_bg"
+	    />
+    <ProgressBar 
+        android:id="@+id/webview_seebar"
+        android:layout_below="@+id/title_bar"
+        style="?android:attr/progressBarStyleHorizontal"  
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:indeterminateOnly="false"  
+        android:max="100" />
+    <RelativeLayout 
+        android:id="@+id/webviews_container"
+        android:layout_below="@+id/webview_seebar"
+        android:layout_above="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+    </RelativeLayout>
+</com.zxly.market.view.ShyzWebView>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/shyz_webview_layout.xml -->

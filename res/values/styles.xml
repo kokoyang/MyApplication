@@ -1,0 +1,100 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme"  >
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	<!-- 自定义对话框风格 -->
+    <style name="customDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <!--无边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--没有标题-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--背景是否半透明-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--对话框是否有遮盖 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--动画样式-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--背景是否模糊-->
+        
+    </style>
+    <style name="ListView_style" ><!-- -->
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+    <style name="Main_tab_selected">
+        <item name="android:textColor">@color/color_57be17</item>
+        <item name="android:textSize">@dimen/txt_nomal</item>   
+    </style>
+    <style name="Main_tab_unselected">
+        <item name="android:textColor">@color/color_666666</item>
+        <item name="android:textSize">@dimen/txt_nomal</item>
+    </style>
+    
+     <style name="Txtstyle_30_333333">
+        <item name="android:textColor">@color/color_333333</item>
+        <item name="android:textSize">@dimen/txt_nomal</item>
+     </style>
+      <style name="Txtstyle_30_666666">
+        <item name="android:textColor">@color/color_666666</item>
+        <item name="android:textSize">@dimen/txt_nomal</item>
+      </style>
+      <style name="Txtstyle_25_999999">
+        <item name="android:textColor">@color/color_999999</item>
+        <item name="android:textSize">@dimen/txt_small</item>
+      </style>
+       <style name="Txtstyle_25_666666">
+        <item name="android:textColor">@color/color_666666</item>
+        <item name="android:textSize">@dimen/txt_small</item>
+      </style>
+      <style name="Button_download_style">
+        <item name="android:textColor">@color/color_57be17</item>
+        <item name="android:textSize">@dimen/txt_small</item>
+        <item name="android:text">@string/download</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_round_border_57be17</item>
+      </style>
+      <style name="Button_update_style" parent="Button_download_style">
+        <item name="android:text">@string/update</item>
+      </style>
+       <style name="Button_wait_style" parent="Button_download_style">
+        <item name="android:textColor">@color/color_999999</item>
+        <item name="android:text">@string/waiting</item>
+        <item name="android:background">@drawable/btn_round_border_999999</item>
+      </style>
+       <style name="Button_retry_style" parent="Button_download_style">
+        <item name="android:textColor">@color/color_fe9e8a</item>
+        <item name="android:background">@drawable/btn_round_border_fe9e8a</item>
+        <item name="android:text">@string/retry</item>
+      </style>
+      <style name="Button_install_style" parent="Button_download_style">
+        <item name="android:textColor">@color/color_6fc9e9</item>
+        <item name="android:background">@drawable/btn_round_border_6fc9e9</item>
+      </style>
+      <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">    
+        <item name="android:progressDrawable">@drawable/rating_yellow</item>    
+        <item name="android:minHeight">@dimen/star_height</item>    
+        <item name="android:maxHeight">@dimen/star_height</item>  
+      </style>
+      <style name="MyRatingBar_big" parent="@android:style/Widget.RatingBar">    
+        <item name="android:progressDrawable">@drawable/big_rating_yellow</item>    
+        <item name="android:minHeight">@dimen/star_height_big</item>    
+        <item name="android:maxHeight">@dimen/star_height_big</item>  
+      </style>
+</resources>

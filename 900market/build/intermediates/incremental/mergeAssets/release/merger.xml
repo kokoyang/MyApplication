@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="D:\AndroidStudioProjects\MyApplication\900market\build\intermediates\exploded-aar\MyApplication\library\unspecified\assets"/></dataSet><dataSet config="main"><source path="D:\AndroidStudioProjects\MyApplication\900market\assets"/></dataSet><dataSet config="release"><source path="D:\AndroidStudioProjects\MyApplication\900market\build-types\release\assets"/></dataSet></merger>

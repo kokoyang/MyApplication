@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+
+    <View
+        android:id="@+id/horizontal_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/color_dddddd"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dip">
+        <View
+            android:id="@+id/vertical_divider"
+            android:layout_width="0.6dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_dddddd"
+            />
+        <ImageView
+            android:id="@+id/sort_fragment_image_item"
+            android:layout_width="@dimen/catage_bot_icon"
+            android:layout_height="@dimen/catage_bot_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+          />
+        <TextView
+            android:id="@+id/sort_fragment_title_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt_nomal"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/color_666666" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/layout/item_list_catage_sub2nd.xml -->

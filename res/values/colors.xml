@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<color name="dock_unselected_color">#ffffff</color>
+    	<color name="dock_selected_color">#ff00ff</color>
+
+		<color name="c_grey_c5c5c5">#c5c5c5</color>
+		<color name="c_green_55BF17">#55BF17</color>
+		<color name="color_235a00">#235a00</color>
+
+		<color name="color_white">#ffffff</color>
+		<color name="color_57be17">#57be17</color>
+    	<color name="color_666666">#505050</color>
+    	<color name="color_999999">#707070</color>
+    	<color name="color_6fc9e9">#6fc9e9</color>
+    	<color name="color_a0d468">#a0d468</color>
+    	<color name="color_fb7b61">#fb7b61</color>
+    	<color name="color_333333">#333333</color>
+    	<color name="color_fe9e8a">#fe9e8a</color>
+    	<color name="color_fd8f42">#fd8f42</color>
+    	<color name="color_f3f3f3">#f3f3f3</color>
+    	<color name="color_f5f5f5">#f5f5f5</color>
+    	<color name="color_dddddd">#dddddd</color>
+    	<color name="color_86d480">#86d480</color>
+		<color name="color_fffc00">#fffc00</color>
+		<color name="color_b3b3b3">#b3b3b3</color>
+		<color name="pressed_color">#f5f5f5</color>
+		<drawable name="transparanet">#00000000</drawable>
+		<drawable name="press_drawble">#f5f5f5</drawable>
+		<drawable name="press_drawble2">#dbdbdb</drawable>
+		<drawable name="unpress_drawble">#ffffff</drawable>
+</resources>

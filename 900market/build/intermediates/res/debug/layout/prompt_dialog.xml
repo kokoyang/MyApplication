@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/dialog_aboutus_margin"
+    android:background="@drawable/bg_round_white">
+
+    	<TextView
+    	    android:id="@+id/tv_title"
+    	    android:textColor="@color/color_57be17"
+    	    android:textSize="@dimen/txt_nomal"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_margin="@dimen/dialog_aboutus_margin"
+    	    android:text="@string/about_us"/>
+    	<View 
+    	    android:id="@+id/diliver"
+    	    android:layout_below="@+id/tv_title"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/diliver_line_height"
+		    android:background="@color/color_57be17"/>
+    	<TextView
+    	    android:id="@+id/tv_content"
+    	    android:layout_below="@+id/diliver"
+    	    style="@style/Txtstyle_25_999999"
+    	    android:layout_centerHorizontal="true"
+    	    android:layout_margin="@dimen/dialog_aboutus_margin"
+    	    android:lineSpacingMultiplier="1.2"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="left|center_vertical"
+    	    android:minHeight="@dimen/dialog_content_minheight"
+    	    android:text="检测有更新"/>
+    	<LinearLayout
+    	    android:layout_below="@+id/tv_content"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="@dimen/btn_submit_height"
+    	    android:layout_marginLeft="@dimen/dialog_aboutus_margin"
+    	    android:layout_marginRight="@dimen/dialog_aboutus_margin"
+    	    android:orientation="horizontal">
+    	    <Button 
+	    	    android:id="@+id/btn_cancle"
+	    	    style="@style/Button_wait_style"
+	    	    android:layout_width="0dp"
+	    	    android:layout_height="match_parent"
+	    	    android:layout_weight="1"
+			    android:gravity="center"
+			    android:text="取消"
+			    />
+    	   <Button 
+	    	    android:id="@+id/btn_ok"
+	    	    style="@style/Button_download_style"
+	    	    android:layout_marginLeft="@dimen/dialog_aboutus_margin"
+	            android:layout_width="0dp"
+	    	    android:layout_height="match_parent"
+	    	    android:layout_weight="1"
+			    android:text="确定"
+			   />
+    	</LinearLayout>
+    	
+	
+</RelativeLayout>
+<!-- From: file:/D:/android_workspace/studio_workspace/MyApplication/900market/res/layout/prompt_dialog.xml -->

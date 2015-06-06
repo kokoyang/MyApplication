@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:padding="@dimen/title_bar_padding">
+    
+    <RelativeLayout
+        android:id="@+id/rlt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <View  
+            android:layout_toLeftOf="@+id/tv_label"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/diliver_line_height"
+            android:layout_centerVertical="true"
+            android:background="@color/color_57be17"/>
+        <TextView 
+            android:id="@+id/tv_label"
+            style="@style/Main_tab_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_bar_padding"
+            android:layout_marginRight="@dimen/title_bar_padding"
+            android:layout_centerInParent="true"
+            android:text="@string/share"/>
+        <View 
+            android:layout_toRightOf="@+id/tv_label"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/diliver_line_height"
+            android:layout_centerVertical="true"
+            android:background="@color/color_57be17"/>
+       
+    </RelativeLayout>
+     <GridView 
+            android:id="@+id/gv_share"
+            android:layout_below="@+id/rlt_1"
+            style="@style/ListView_style"
+            android:layout_marginTop="@dimen/title_bar_padding"
+            android:scrollbars="none"
+            android:fadingEdge="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="4"></GridView>
+        <Button 
+            android:id="@+id/btn_cancel"
+            android:layout_below="@+id/gv_share"
+            style="@style/Button_wait_style"
+            android:layout_marginTop="@dimen/title_bar_padding"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_submit_height"
+            android:text="@string/cancel"/>
+</RelativeLayout>
+<!-- From: file:/D:/AndroidStudioProjects/MyApplication/900market/res/layout/share_panel.xml -->

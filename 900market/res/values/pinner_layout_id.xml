@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="head_" type="id"/>
+    <item name="tab_" type="id"/>
+    <item name="content__" type="id"/>
+</resources>

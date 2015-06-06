@@ -1,0 +1,165 @@
+# view res/layout/activity_main.xml #generated:122
+# view res/layout/activity_necessary_sub_page.xml #generated:33
+# view res/layout/tab_switch_pagerview.xml #generated:51
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/discovery_fragment_layout.xml #generated:9
+# view res/layout/sort_fragment_layout.xml #generated:9
+-keep class com.handmark.pulltorefreshview.PullToRefreshListView { <init>(...); }
+
+# view res/layout/classic_fragment_layout2.xml #generated:20
+-keep class com.handmark.pulltorefreshview.PullToRefreshListView2 { <init>(...); }
+
+# view res/layout/classic_fragment_layout.xml #generated:20
+-keep class com.handmark.pulltorefreshview.PullToRefreshScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.tencent.connect.common.AssistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class com.umeng.socialize.view.ShareActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.zxly.market.activity.AppDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.zxly.market.activity.AppListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.zxly.market.activity.BaseApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.zxly.market.activity.CategorySubActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.zxly.market.activity.DownLoadTaskActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.zxly.market.activity.FeedBackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.zxly.market.activity.HotSearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.zxly.market.activity.IgnoredAppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.zxly.market.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.zxly.market.activity.ManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.zxly.market.activity.RakingListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.zxly.market.activity.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.zxly.market.activity.ShowPicsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.zxly.market.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.zxly.market.activity.TopicAppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.zxly.market.activity.TopicDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.zxly.market.activity.UninstallAPPActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.zxly.market.activity.UpgradeAppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:211
+-keep class com.zxly.market.service.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:202
+-keep class com.zxly.market.service.PackageChangeReceiver { <init>(...); }
+
+# view res/layout/slidingmenumain.xml #generated:2
+-keep class com.zxly.market.slidemenulib.SlidingMenu { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class com.zxly.market.utils.MarketReceiver { <init>(...); }
+
+# view res/layout/activity_show_pics.xml #generated:2
+# view res/layout/bannercarousel_layout.xml #generated:2
+-keep class com.zxly.market.view.BannerCarouselView { <init>(...); }
+
+# view res/layout/activity_show_pics.xml #generated:8
+# view res/layout/bannercarousel_layout.xml #generated:7
+-keep class com.zxly.market.view.ChildViewPager { <init>(...); }
+
+# view res/layout/item_app_comment.xml #generated:8
+-keep class com.zxly.market.view.CircleImageView { <init>(...); }
+
+# view res/layout/commen_lodaing.xml #generated:2
+-keep class com.zxly.market.view.CommenLoadingView { <init>(...); }
+
+# view res/layout/activity_search.xml #generated:31
+-keep class com.zxly.market.view.EditTextWithDelete { <init>(...); }
+
+# view res/layout/activity_feedback.xml #generated:27
+-keep class com.zxly.market.view.InputCountter { <init>(...); }
+
+# view res/layout/activity_app_detail.xml #generated:51
+# view res/layout/include_title_bar.xml #generated:6
+# view res/layout/item_list_app.xml #generated:20
+-keep class com.zxly.market.view.LimitLengthTextView { <init>(...); }
+
+# view res/layout/activity_list_app.xml #generated:12
+# view res/layout/activity_search.xml #generated:146
+# view res/layout/activity_topic.xml #generated:21
+# view res/layout/fragment_app_comment.xml #generated:6
+# view res/layout/fragment_ranking.xml #generated:8
+-keep class com.zxly.market.view.LoadmoreListView { <init>(...); }
+
+# view res/layout/activity_app_detail.xml #generated:34
+-keep class com.zxly.market.view.PinnerHeadRelativeLayout { <init>(...); }
+
+# view res/layout/fragment_app_introduce.xml #generated:96
+# view res/layout/head_classs_listview.xml #generated:205
+-keep class com.zxly.market.view.RelativeLayoutForGridView { <init>(...); }
+
+# view res/layout/activity_app_detail.xml #generated:43
+# view res/layout/item_grid_app.xml #generated:8
+# view res/layout/item_list_app.xml #generated:11
+# view res/layout/item_list_downloaded.xml #generated:10
+# view res/layout/item_list_downloading.xml #generated:10
+# view res/layout/item_list_ignore_app.xml #generated:11
+# view res/layout/item_list_uninstall.xml #generated:11
+# view res/layout/item_list_upgrade_app.xml #generated:11
+-keep class com.zxly.market.view.RoundedImageView { <init>(...); }
+
+# view res/layout/shyz_webview_layout.xml #generated:2
+-keep class com.zxly.market.view.ShyzWebView { <init>(...); }
+
+# view res/layout/discovery_fragment_head.xml #generated:122
+# view res/layout/item_list_catage.xml #generated:32
+-keep class com.zxly.market.view.SortGridView { <init>(...); }
+
+# view res/layout/tab_switch_pagerview.xml #generated:2
+-keep class com.zxly.market.view.TabSwitchPagerView { <init>(...); }
+
+# view res/layout/activity_necessary_sub_page.xml #generated:19
+-keep class com.zxly.market.view.TopGallery { <init>(...); }
+
+# view res/layout/classic_fragment_layout.xml #generated:230
+-keep class com.zxly.market.view.ZXGridView { <init>(...); }
+
+# view res/layout/classic_fragment_layout.xml #generated:309
+-keep class com.zxly.market.view.ZXListView { <init>(...); }
+
+# view res/layout/classic_fragment_layout.xml #generated:276
+# view res/layout/head_classs_listview.xml #generated:246
+-keep class com.zxly.market.view.ZXWebview { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.zxly.market.wxapi.WXEntryActivity { <init>(...); }
+
